@@ -1,9 +1,9 @@
 # code your #valid_move? method here
-def valid_move?
-  if (position_taken? && )
-    
+def valid_move?(num)
+  if (position_taken? && num.between?(0,8))
+    false
   else
-    
+    true
   end
 end
 
