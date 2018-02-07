@@ -2,7 +2,9 @@
 def valid_move?(arr, index)
   if (position_taken?(arr, index) && index.between?(0,8))
     false
-  elsif 
+  elsif (index.between?(0,8) == false)
+    false
+  else
     true
   end
 end
