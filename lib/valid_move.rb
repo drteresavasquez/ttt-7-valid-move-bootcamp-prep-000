@@ -1,6 +1,6 @@
 # code your #valid_move? method here
-def valid_move?(num)
-  if (position_taken? && num.between?(0,8))
+def valid_move?(arr, index)
+  if (position_taken?(arr, index) && index.between?(0,8))
     false
   else
     true
